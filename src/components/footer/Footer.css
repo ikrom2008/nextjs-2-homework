@@ -1,0 +1,23 @@
+.footer{
+    width: 80%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    div{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: start;
+    }
+    ul{
+        list-style: none;
+        gap: 5px;
+        justify-content: start;
+        align-items: start;
+        display: grid;
+        span{
+            color: #FBD103;
+        }
+        
+    }
+}
