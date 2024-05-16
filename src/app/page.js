@@ -4,7 +4,7 @@ import Hero from "@/components/hero/Hero";
 import Main from "@/components/main/Main";
 
 async function getData() {
-  const res = await fetch('https://fakestoreapi.com/products') 
+  const res = await fetch('https://fakestoreapi.com/products', {cache: 'force-cache'}) 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
